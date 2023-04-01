@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    font: 12px "Lucida Grande", "Lucida Sans Unicode",  Arial, sans-serif;
+    background: #dbf5da;
+}
+
+/* Header da página*/
+header{
+    display: flex;
+    background: #6aca67;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+ul, li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: #d1ebd0;
+    transition: 0.3s;
+    font-size: 20px; 
+}
+
+a{
+    text-decoration: none;
+    color: #d1ebd0;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+a:hover{
+    opacity: 0.6;
+    color: #0ba106;
+    background: #d9ebd8;
+    padding: 10px;
+    border-radius: 10px 3px;
+}
+
+/* Conteudo principal estilização*/
+#container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: 90%;
+}
+
+#conteudo-principal{
+    background: #afd8ad; 
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: -1px 1px 7px 2px rgb(4, 37, 8);
+    text-align: center;
+    clear: both;
+    width: 99%;
+}
+
+h1{
+    color: #094e06;
+}
+
+.imgConteudos{
+    border: 7px solid #094e06;
+    border-top: 7px solid #0ba106;
+    border-bottom: 7px solid #0ba106;
+}
+
+p{
+    font-size: 20px;
+    background: #6bbb68;
+    margin: 20px;
+    border: 5px solid #11550e;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.imagens{
+    width: 46%;
+    float: right;
+}
+
+.paragrafos{
+    float: left;
+    width: 48%;
+}
+
+/*Form*/
+
+section{
+    background-color: #489645;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+label{
+    color: #d1ebd0;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form textarea{
+    min-width: 300px;
+    min-height: 50px;
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 20px;
+    width: 300px;
+    max-width: 300px;
+    max-height: 50px;
+    border: 1px solid #6aca67;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+form input:focus, form textarea:focus{
+    background-color: #d5ebd4;
+}
+
+form input[type=submit]{
+    background-color: #ebf1ea;
+    color: #094e06;
+    cursor: pointer;
+}
+
+
+
+
