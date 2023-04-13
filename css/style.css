@@ -38,7 +38,7 @@ a{
   text-decoration: none;
 }
 
-h1{
+h1.tituloConteudo{
   padding: 30px 0;
   text-align: center;
   /*font-family: "Roboto Condensed";*/
@@ -122,6 +122,42 @@ nav{
 
 #conteudo{
   padding: 40px 40px;
+}
+
+#conteudoHome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+}
+
+#conteudoHome img{
+  width: 20em;
+  align: center;
+}
+
+h1.tituloHome{
+  padding: 4em 10%;
+  text-align: center;
+  /*font-family: "Roboto Condensed";*/
+  font-family: "Roboto Slab";
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.10em;
+  color: WHITE;
+  /*=== SET BACKGROUND IMAGE ===*/
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fgAzul{
+  color: #3995E2;
+}
+
+.fgVerde{
+  color: #8CC04F;
 }
 
 #imgComLegenda{
