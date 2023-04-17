@@ -122,6 +122,7 @@ nav{
 
 #conteudo{
   padding: 40px 40px;
+  font-family: "Roboto Slab";
 }
 
 #conteudoHome{
@@ -153,7 +154,7 @@ h1.tituloHome{
 }
 
 .fgAzul{
-  color: #3995E2;
+  color: #51A6EB;
 }
 
 .fgVerde{
