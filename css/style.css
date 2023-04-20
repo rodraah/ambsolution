@@ -41,7 +41,6 @@ a{
 h1.tituloConteudo{
   padding: 30px 0;
   text-align: center;
-  /*font-family: "Roboto Condensed";*/
   font-family: "Inter";
   font-weight: 700;
   letter-spacing: -0.025em;
@@ -59,7 +58,7 @@ h2{
 
 h3{
   font-family: "Manrope";
-  font-weight: normal;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -112,6 +111,21 @@ nav{
   gap: 20px;
 }
 
+footer{
+  height: auto;
+  background: black;
+}
+
+footer .disclaimer{
+  padding: 15px 20px;
+  color: #B3D0A9;
+  font-family: "Manrope";
+  font-size: 14px;
+  text-align: center;
+  line-height: 17px;
+  letter-spacing: 0.7px;
+}
+
 /*CONTEUDO*/
 
 #container{
@@ -122,19 +136,37 @@ nav{
 
 #conteudo{
   padding: 40px 40px;
-  font-family: "Roboto Slab";
+  font-family: "Manrope";
+  font-weight: 200;
+  text-align: left;
+  line-height: 25px;
 }
 
 #conteudoHome{
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3em;
+  gap: 1em;
+}
+
+#conteudoHome h3{
+  padding: 15px 0;
 }
 
 #conteudoHome img{
-  width: 20em;
+  width: 100%;
   align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  #conteudoHome{
+    width: 70%;
+  }
+  #conteudoHome img{
+    width: 400px;
+  }
 }
 
 h1.tituloHome{
