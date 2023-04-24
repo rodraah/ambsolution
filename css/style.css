@@ -142,7 +142,7 @@ footer .disclaimer{
   line-height: 25px;
 }
 
-#conteudoHome{
+#conteudoTexto{
   margin: 0 auto;
   width: 80%;
   display: flex;
@@ -151,20 +151,20 @@ footer .disclaimer{
   gap: 1em;
 }
 
-#conteudoHome h3{
+#conteudoTexto h3{
   padding: 15px 0;
 }
 
-#conteudoHome img{
+#conteudoTexto img{
   width: 100%;
   align: center;
 }
 
 @media only screen and (min-width: 600px) {
-  #conteudoHome{
+  #conteudoTexto{
     width: 70%;
   }
-  #conteudoHome img{
+  #conteudoTexto img{
     width: 400px;
   }
 }
