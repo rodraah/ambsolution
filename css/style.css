@@ -10,6 +10,12 @@
 }
 
 @font-face{
+  font-family: "Manrope";
+  font-weight: 700;
+  src: url('../fonts/Manrope/Manrope-Bold.woff2');
+}
+
+@font-face{
   font-family: "Roboto Condensed";
   font-weight: 700;
   src: url('../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf');
