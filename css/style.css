@@ -39,6 +39,10 @@ a{
   font-weight: bold;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
 h1.tituloConteudo{
   padding: 30px 0;
   text-align: center;
@@ -145,13 +149,18 @@ footer .disclaimer{
   line-height: 25px;
 }
 
+#conteudo img{
+  border-radius: 30px 10px;
+  border: 2px solid white;
+}
+
 #conteudoTexto{
   margin: 0 auto;
   width: 90%;
   display: flex;
   flex-direction: column;
   align-items: justify;
-  text-align: left;
+  text-align: justify;
   gap: 1em;
 }
 
@@ -162,7 +171,7 @@ footer .disclaimer{
 #conteudoTexto img{
   display: block;
   width: 90%;
-  margin: 0 auto;
+  margin: 10px auto;
   align: center;
 }
 
@@ -201,7 +210,7 @@ h1.tituloHome{
 
 #imgComLegenda{
   font-family: "Roboto Slab";
-  font-size: 15px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -225,7 +234,6 @@ h1.tituloHome{
 
 #imgComLegenda ul:hover{
   transition: 200ms;
-  text-decoration: underline;
 }
 
 #imgComLegenda ul:hover .imgConteudos{
@@ -236,8 +244,6 @@ h1.tituloHome{
   width: 200px;
   height: 150px;
   overflow: hidden;
-  border-radius: 30px 10px;
-  border: 2px solid #003E1F22;
 }
 
 /* ==== RESPONSIVIDADE ==== */
