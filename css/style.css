@@ -37,6 +37,9 @@
 body{
   background: white;
   color: #01110A;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a{
@@ -127,6 +130,7 @@ nav{
 footer{
   height: auto;
   background: black;
+  margin-top: auto;
 }
 
 footer .disclaimer{
@@ -139,6 +143,43 @@ footer .disclaimer{
   letter-spacing: 0.7px;
 }
 
+/* ==== FORMULARIOS ==== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+input, textarea {
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px 5px;
+  border: solid 1.5px #002914;
+  width: 200px;
+}
+
+.ddd {
+  width: 30px;
+}
+
+.celular {
+  width: 140px;
+}
+
+.botao {
+  width: 120px;
+  background: #002914;
+  color: white;
+  transition: 300ms;
+}
+
+.botao:hover {
+  background: #076B39;
+}
+
 /*CONTEUDO*/
 
 #container{
@@ -148,6 +189,7 @@ footer .disclaimer{
 }
 
 #conteudo{
+  flex: 1;
   padding: 40px 40px;
   font-family: "Manrope";
   font-weight: 200;

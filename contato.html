@@ -27,33 +27,33 @@
       <div id="conteudo">
         <div id="conteudoTexto">
           <form> <!-- Início do form -->
-            <div class="entrada">
-              <label>Nome: </label>
+            <div>
+              <legend>Nome: </legend>
               <input required type="text" placeholder="Nome"/>
             </div>
 
-            <div class="entrada">
-              <label>Email: </label>
+            <div>
+              <legend>Email: </legend>
               <input type="email" placeholder="Email"/>
             </div>
 
-            <div class="entrada">
-              <label>Celular para contato: </label><br>
-              <input type="text" placeholder="DDD" maxlength="2" size="2"/>
-              <input type="tel" placeholder="Número" maxlength="9"/><br>
+            <div>
+              <legend>Celular para contato: </legend>
+              <input type="text" placeholder="DDD" maxlength="2" class="ddd"/>
+              <input type="tel" placeholder="Número" maxlength="9" class="celular"/>
             </div>
 
-            <div class="entrada">
-              <label>Assunto: </label>
+            <div>
+              <legend>Assunto: </legend>
               <input type="text" placeholder="Assunto"/>
             </div>
 
-            <div class="entrada">
-              <label>Mensagem: </label><br>
+            <div>
+              <legend>Mensagem: </legend>
               <textarea placeholder="Mensagem"></textarea>
             </div>
 
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" class="botao">
           </form> <!-- Final do form -->
         </div>
       </div><!--Fim do conteúdo principal-->
