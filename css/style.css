@@ -281,6 +281,7 @@ h1.tituloHome{
   justify-content: center;
   flex-wrap: wrap;
   gap: 60px 60px;
+  padding-top: 30px;
 }
 
 #imgComLegenda ul{
