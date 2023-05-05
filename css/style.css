@@ -57,7 +57,7 @@ a:hover{
 }
 
 h1.tituloConteudo{
-  padding: 30px 0;
+  padding: 30px 30px;
   text-align: center;
   font-family: "Inter";
   font-weight: 700;
@@ -277,11 +277,24 @@ h1.tituloHome{
 #imgComLegenda{
   font-family: "Roboto Slab";
   font-size: 14px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 220px 220px 220px;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 60px 60px;
+  gap: 30px 30px;
   padding-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  #imgComLegenda {
+    grid-template-columns: 220px 220px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #imgComLegenda {
+    grid-template-columns: 220px;
+  }
 }
 
 #imgComLegenda ul{
