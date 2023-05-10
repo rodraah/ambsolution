@@ -327,6 +327,49 @@ h1.tituloHome{
   overflow: hidden;
 }
 
+/* ==== REDES SOCIAIS ==== */
+
+p.socialTexto {
+  margin-top: 40px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.social{
+  align: center;
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  align-items: end;
+  gap: 30px;
+}
+
+.social a {
+  color: #003E1F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.social img {
+  height: 40px !important;
+  width:  auto !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+@media only screen and (max-width:450px) {
+  .social {
+    gap: 0px;
+    width: 100%;
+  }
+
+  .social legend{  
+    display: none;
+  }
+}
+
 /* ==== RESPONSIVIDADE ==== */
 
 @media only screen and (max-width: 560px) {
