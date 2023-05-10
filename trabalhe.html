@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trabalhe aqui - Ambsolution</title>
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<link rel="icon" href="img/logo.png"/>
+  <link rel="icon" href="img/logo.png"/>
 </head>
 <body>
 
@@ -22,46 +22,52 @@
   <!-- Fim da barra de nav-->
 
   <main>
-		<!--Início do container-->
-		<div id="container">
-			
-			<h1 class="tituloConteudo">Trabalhe na Ambsolution</h1>
-			<!--Início do conteúdo principal-->
-			<div id="conteudo">
+    <!--Início do container-->
+    <div id="container">
+      
+      <h1 class="tituloConteudo">Trabalhe na Ambsolution</h1>
+      <!--Início do conteúdo principal-->
+      <div id="conteudo">
 
-				<!-- Início Form-->
-				<section>
-					<form>
+        <!-- Início Form-->
+        <section>
+          <form>
 
-						<div>
-							<legend>Nome: </legend>
-							<input required placeholder="Nome" type="text" />
-						</div>
-						
-						<div>
-							<legend>Email: </legend>
-							<input required placeholder="E-mail" type="email" />
-						</div>
+            <div>
+              <legend>Nome: </legend>
+              <input required placeholder="Nome" type="text" />
+            </div>
+            
+            <div>
+              <legend>Email: </legend>
+              <input required placeholder="E-mail" type="email" />
+            </div>
 
-						<div>
-							<legend>Celular para contato: </legend>
+            <div>
+              <legend>Celular para contato: </legend>
               <input required type="text" placeholder="DDD" maxlength="2" class="ddd"/>
               <input required type="tel" placeholder="Número" maxlength="9" class="celular"/>
-						</div>
+            </div>
 
-						<div>
-							<legend>Fale um pouco sobre você</legend>
-							<textarea required></textarea>
-						</div>
-						
-						<input type="submit" value="Enviar" class="botao" />
-					</form>  <!--Fim form-->
-				</section>
+            <div>
+              <legend>Fale um pouco sobre você: </legend>
+              <textarea required></textarea>
+            </div>
 
-			</div><!--Fim do conteúdo principal-->
+            <div>
+              <legend>Envie seu currículo</legend>
+              <input required type="file" id="curriculo" 
+                accept=".doc,.docx"/>
+            </div>
+            
+            <input type="submit" value="Enviar" class="botao" />
+          </form>  <!--Fim form-->
+        </section>
 
-		</div> <!--Fim do container-->
-	</main>
+      </div><!--Fim do conteúdo principal-->
+
+    </div> <!--Fim do container-->
+  </main>
 
   <!--RODAPÉ-->
   <footer class="footer">
