@@ -1,61 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhe Aqui</title>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhe aqui - Ambsolution</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="icon" href="img/logo.png"/>
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><img src="img/logotype.png" width="190"></li>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="quemSomos.html">Quem Somos</a></li>
-                <li><a href="">Trabalhe Conosco</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </nav>
-    </header> <!-- Fim da barra de nav-->
+  <!-- Barra de navegação principal -->
+  <header>
+    <a href="index.html"><img src="img/logotype.png" width="190px"></a>
+    <nav>
+      <a href="projetos.html">Projetos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header> 
+  <!-- Fim da barra de nav-->
 
-    <!--Início do container-->
-    <div id="container">
-        
-        <!--Início do conteúdo principal-->
-        <div id="conteudo-principal">
-            <h1>Ambsolution - Engenharia Ambiental</h1>
+  <main>
+		<!--Início do container-->
+		<div id="container">
+			
+			<h1 class="tituloConteudo">Trabalhe na Ambsolution</h1>
+			<!--Início do conteúdo principal-->
+			<div id="conteudo">
 
-            <!-- Início Form-->
-            <section>
-                <form>
+				<!-- Início Form-->
+				<section>
+					<form>
 
-                    <label>Nome:</label>
-                    <input required placeholder="Nome" type="text" />
-                    
-                    <label>Sobrenome:</label>
-                    <input required placeholder="Sobrenome" type="text" />
+						<div>
+							<legend>Nome completo:</legend>
+							<input required placeholder="Nome" type="text" />
+						</div>
+						
+						<div>
+							<legend>Email:</legend>
+							<input required placeholder="E-mail" type="email" />
+						</div>
 
-                    <label>Email:</label>
-                    <input required placeholder="E-mail" type="email" />
+						<div>
+							<legend>Celular:</legend>
+              <input required type="text" placeholder="DDD" maxlength="2" class="ddd"/>
+              <input required type="tel" placeholder="Número" maxlength="9" class="celular"/>
+						</div>
 
-                    <label>Celular:</label>
-                    <input required placeholder="1234" type="text" maxlength="12" />
+						<div>
+							<legend>Fale um pouco sobre você</legend>
+							<textarea required></textarea>
+						</div>
+						
+						<input type="submit" value="Enviar" class="botao" />
+					</form>  <!--Fim form-->
+				</section>
 
-                    <label>Fale um pouco sobre você</label>
-                    <textarea required></textarea>
-                    
-                    <input type="submit" value="Enviar" />
-                </form>  <!--Fim form-->
-            </section>
+			</div><!--Fim do conteúdo principal-->
 
-        </div><!--Fim do conteúdo principal-->
+		</div> <!--Fim do container-->
+	</main>
 
-    </div> <!--Fim do container-->
-
-    
+  <!--RODAPÉ-->
+  <footer class="footer">
+    <div class="disclaimer">
+      <p> Este site foi desenvolvido como trabalho de pesquisa acadêmico e não 
+      representa de forma alguma a Ambsolution.</p>
+    </div>
+  </footer>
+  <!--FIM DO RODAPÉ-->
 </body>
 </html>
