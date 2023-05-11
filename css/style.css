@@ -372,13 +372,43 @@ p.socialTexto {
 
 /* ==== RESPONSIVIDADE ==== */
 
+.responsivo #navBotao{
+  filter: invert(100%);
+  display: none;
+}
+
+.expanded {
+  display: block;
+}
+
+#navBotao {
+  padding: 0 0;
+}
+
 @media only screen and (max-width: 560px) {
-  header img {
-    content: url('../img/logo.png');
-    width: 40px;
+  header {
+    /* padding: 0 30px; */
   }
+
+  #navBotao {
+    padding: 0 25px 0 0;
+  }
+
   nav {
+    display: flex;
     gap: 5%;
     margin: 0 20%;
+  }
+
+  nav.navLinks {
+    margin: 0 auto 0 0;
+  }
+
+  .noDisplay{
+    display: none;
+  }
+
+  .responsivo #navBotao{
+    display: block;
   }
 }
