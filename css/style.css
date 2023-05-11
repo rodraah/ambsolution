@@ -241,15 +241,6 @@ textarea {
   align: center;
 }
 
-@media only screen and (min-width: 600px) {
-  #conteudoTexto{
-    width: 60%;
-  }
-  #conteudoTexto img{
-    width: 400px;
-  }
-}
-
 h1.tituloHome{
   padding: 4em 10%;
   text-align: center;
@@ -410,5 +401,17 @@ p.socialTexto {
 
   .responsivo #navBotao{
     display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #conteudoTexto{
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #conteudoTexto img {
+    width: 400px;
   }
 }
